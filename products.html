@@ -1,18 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spooky Halloween Stores</title>
-    <link rel="stylesheet" href="css/styles.css"
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts/script.js" defer></script>
-</head>
 <body>
-<!-- navigation bar-->
-<nav class="navbar"
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="/mnt/user-data/uploads/logo-skull.png" alt="Skull Logo" class="logo-img">
+                <h1>Spooky Store</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-</nav>
+    <!-- Floating Halloween Icons -->
+    <div class="floating-icons">
+        <img src="/mnt/user-data/uploads/nav-bat.png" alt="Bat" class="float-icon bat">
+        <img src="/mnt/user-data/uploads/stars.png" alt="Stars" class="float-icon stars">
+    </div>
 
+    <!-- Page Header -->
+    <section class="page-header">
+        <h2>Our Spooky Products</h2>
+        <p>Browse through our collection of frightfully fun items!</p>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="categories">
+        <h3 class="section-title">Shop by Category</h3>
+        <div class="category-grid">
+            <div class="category-card" data-category="costumes">
+                <img src="/mnt/user-data/uploads/category-witch-hat.png" alt="Costumes">
+                <h4>Costumes</h4>
+            </div>
+            <div class="category-card" data-category="decorations">
+                <img src="/mnt/user-data/uploads/category-pumpkin.png" alt="Decorations">
+                <h4>Decorations</h4>
+            </div>
+            <div class="category-card" data-category="props">
+                <img src="/mnt/user-data/uploads/category-ghost.png" alt="Props">
+                <h4>Spooky Props</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Products Grid -->
+    <section class="products">
+        <h3 class="section-title">All Products</h3>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="/mnt/user-data/uploads/item-witch-hat.png" alt="Witch Hat">
+                <h4>Witch Hat</h4>
+                <p class="price">$19.99</p>
+                <button class="add-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/mnt/user-data/uploads/item-pumpkin.png" alt="Jack-O-Lantern">
+                <h4>Jack-O-Lantern</h4>
+                <p class="price">$24.99</p>
+                <button class="add-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/mnt/user-data/uploads/item-spider.png" alt="Giant Spider">
+                <h4>Giant Spider</h4>
+                <p class="price">$15.99</p>
+                <button class="add-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/mnt/user-data/uploads/item-broom.png" alt="Witch Broom">
+                <h4>Witch's Broom</h4>
+                <p class="price">$12.99</p>
+                <button class="add-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/mnt/user-data/uploads/item-apple.png" alt="Candy Apple">
+                <h4>Candy Apple</h4>
+                <p class="price">$8.99</p>
+                <button class="add-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="/mnt/user-data/uploads/party-cauldron.png" alt="Witch Cauldron">
+                <h4>Witch's Cauldron</h4>
+                <p class="price">$34.99</p>
+                <button class="add-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="/mnt/user-data/uploads/footer-tree1.png" alt="Tree" class="footer-tree">
+            <p>&copy; 2025 Spooky Halloween Store. All rights reserved.</p>
+            <p>Happy Halloween! 🎃</p>
+            <img src="/mnt/user-data/uploads/footer-tree2.png" alt="Tree" class="footer-tree">
+        </div>
+    </footer>
 </body>
 </html>
